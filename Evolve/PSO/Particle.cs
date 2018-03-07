@@ -1,6 +1,6 @@
 ﻿using Evolve.Math;
 
-namespace Evolve
+namespace Evolve.PSO
 {
     public class Particle
     {

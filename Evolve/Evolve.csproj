@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Contracts\" />
-    <Folder Include="Problems\" />
+    <Folder Include="Problems\Solutions\" />
+    <Folder Include="PSO\IterationStrategies\" />
   </ItemGroup>
 
 </Project>
