@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 namespace Evolve.Math
 {
-    public class Vector
+    public class Vector : ICloneable
     {
         private readonly double[] _elements;
 
@@ -40,6 +40,11 @@ namespace Evolve.Math
             });
 
             return new Vector(elements);
+        }
+
+        public object Clone()
+        {
+            throw new NotImplementedException();
         }
     }
 }

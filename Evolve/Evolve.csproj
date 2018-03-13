@@ -5,7 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Problems\Solutions\" />
+    <Compile Remove="Problems\Solutions\**" />
+    <EmbeddedResource Remove="Problems\Solutions\**" />
+    <None Remove="Problems\Solutions\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="PSO\IterationStrategies\" />
   </ItemGroup>
 
